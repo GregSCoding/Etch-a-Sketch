@@ -1,7 +1,5 @@
 .gridpart{
-  width: 2.4vw;
-  height: 2.4vw;
-  border: 1px solid black;
+  border: 1px solid rgba(163, 128, 128, 0.397);
 }
 #gridcontainer{
   display: flex;
@@ -10,5 +8,9 @@
   align-items: center;
 }
 body{
-  padding: 40px;
+  padding: 5px;
+}
+
+#menu > button{
+  background-color: aliceblue;
 }
