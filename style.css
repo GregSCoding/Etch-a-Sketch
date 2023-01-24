@@ -1,0 +1,14 @@
+.gridpart{
+  width: 2.4vw;
+  height: 2.4vw;
+  border: 1px solid black;
+}
+#gridcontainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+body{
+  padding: 40px;
+}
