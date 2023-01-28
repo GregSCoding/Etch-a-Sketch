@@ -1,16 +1,59 @@
 .gridpart{
-  border: 1px solid rgba(163, 128, 128, 0.397);
+  background-color: white;
+  flex-grow: 1;
 }
 #gridcontainer{
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 600px;
+  height: 600px;
+  margin-left: 20px;
+  border: 3px solid black;
 }
 body{
-  padding: 5px;
+  padding: 100px;
+  display: flex;
+  font-family: sans-serif;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+#radiomenu{
+  font-family: sans-serif;
+}
+
+#title{
+font-size: 50px;
+font-weight: 900;
+}
+
+#main{
+  display: flex;
+  background-color: rgb(183, 206, 81);
+  border:3px solid black;
+  padding: 40px;
+  padding-left: 20px;
+  justify-content: space-around;
+  margin-top: 20px;
+
 }
 
 #menu > button{
   background-color: aliceblue;
+  font-weight: 900;
+  border:0px;
+  padding: 5px;
+}
+#menu{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.row{
+  display: flex;
+  flex-grow: 1;
 }
